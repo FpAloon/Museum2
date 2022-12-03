@@ -1,0 +1,13 @@
+<div>
+    <h1><a href="/">test</a></h1>
+</div>
+
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.num }}</p>
+        <h1><a href="">{{ post.txt }}</a></h1>
+	<h2><a href="">{{ post.url}}</a></h2>
+        <p>{{ post.dat}}</p>
+    </div>
+{% endfor %}
+<p><strong>Источник:<a href="https://gim-kekina.edu.yar.ru//muzey_gimnazii/muzeynaya_masterskaya.html">Сайт гимназии</a></strong></p>
