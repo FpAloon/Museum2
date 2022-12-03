@@ -4,10 +4,8 @@
 
 {% for post in posts %}
     <div>
-        <p>published: {{ post.num }}</p>
-        <h1><a href="">{{ post.txt }}</a></h1>
-	<h2><a href="">{{ post.url}}</a></h2>
-        <p>{{ post.dat}}</p>
+        <p>published: {{ post.title }}</p>
+        <h1><a href="">{{ post.text }}</a></h1>
+        <p>{{ post.published_date}}</p>
     </div>
 {% endfor %}
-<p><strong>Источник:<a href="https://gim-kekina.edu.yar.ru//muzey_gimnazii/muzeynaya_masterskaya.html">Сайт гимназии</a></strong></p>
