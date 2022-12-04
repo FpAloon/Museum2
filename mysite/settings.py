@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'aloon2$museum',
-        'USER': 'aloon2',
+        'NAME': 'museum',
+        'USER': 'Aloon',
         'PASSWORD': 'admin_aloon246',
         'HOST': 'aloon2.mysql.pythonanywhere-services.com',
         'PORT': '3306',
